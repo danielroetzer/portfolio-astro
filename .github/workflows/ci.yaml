@@ -20,7 +20,7 @@ jobs:
         uses: ./.github/actions/setup
 
       - name: Run format check
-        run: pnpm format
+        run: pnpm format:check
 
   lint:
     name: Lint
