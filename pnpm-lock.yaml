@@ -7,7 +7,7 @@ settings:
 importers:
 
   .:
-    dependencies:
+    devDependencies:
       '@astrojs/check':
         specifier: ^0.9.4
         version: 0.9.4(prettier-plugin-astro@0.14.1)(prettier@3.5.3)(typescript@5.8.3)
@@ -23,16 +23,15 @@ importers:
       astro:
         specifier: ^5.7.13
         version: 5.7.13(@types/node@22.15.18)(rollup@4.40.2)(typescript@5.8.3)(yaml@2.8.0)
-      typescript:
-        specifier: ^5.8.3
-        version: 5.8.3
-    devDependencies:
       prettier:
         specifier: ^3.5.3
         version: 3.5.3
       prettier-plugin-astro:
         specifier: ^0.14.1
         version: 0.14.1
+      typescript:
+        specifier: ^5.8.3
+        version: 5.8.3
 
 packages:
 
